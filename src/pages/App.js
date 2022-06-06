@@ -1,16 +1,18 @@
 import logo from './logo.svg';
 import styles from './App.module.scss'; // import as variables
 import {Link,Route,Routes,useLocation} from 'react-router-dom';
-import HomePage from './HomePage'
-import WorkPage from './WorkPage'
-import WorkPageDetail from './WorkPageDetail'
+import HomePage from './HomePage/HomePage'
+import WorkPage from './WorkPage/WorkPage'
+import WorkPageDetail from './WorkPageDetail/WorkPageDetail'
 
 function App() {
   const location = useLocation();
-  console.log(location);
+  // console.log(location);
 
   return (
     <div className={styles.App}>
+
+      {/* Navigation Header */}
       <header className={styles.header}>
         <div className={styles.box}>
           <Link to="/">
@@ -24,6 +26,7 @@ function App() {
         </div>
       </header>
 
+      {/* Main contents */}
       <section className={styles.content}>
           <Routes>
           <Route path="/" exact element={ <HomePage/>} />
@@ -33,6 +36,8 @@ function App() {
 
       </section> 
 
+
+      {/* Footer */}
       <footer className={styles.footer}>
 
         <p><b>© 2022 Tianchi YU</b></p>
