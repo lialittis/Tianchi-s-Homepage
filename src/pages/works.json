@@ -1,21 +1,20 @@
 {
-    "code":200,
-    "msg":"Request Successfully!",
-    "data":[
-        {
-            "title" : "test",
-            "brief" : "abc",
-            "tags" : ["x","y","w"],
-            "cover" : "",
-            "id":1
-        },
-        {
-            "title" : "test2",
-            "brief" : "efs",
-            "tags" : ["dsf sdf","tst"],
-            "cover" : "",
-            "id":2
-        }
-    ]
-
+  "code": 200,
+  "msg": "Request Successfully!",
+  "data": [
+    {
+      "title": "test",
+      "brief": "abc",
+      "tags": ["x", "y", "w"],
+      "cover": "",
+      "id": 1
+    },
+    {
+      "title": "test2",
+      "brief": "efs",
+      "tags": ["dsf sdf", "tst"],
+      "cover": "",
+      "id": 2
+    }
+  ]
 }
