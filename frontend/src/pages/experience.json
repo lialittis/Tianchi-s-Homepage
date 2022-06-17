@@ -1,0 +1,82 @@
+{
+  "code": 100,
+  "msg": "Request Successfully!",
+  "data": [
+    {
+      "institut": "SAP Labs France",
+      "role": "Security Research Intern : Security for Distributed Machine Learning",
+      "logo": "../images/institut.jpg",
+      "brief": "Study the implementations of Graph Convolutional Network(e.g. ST-GCN) and ensure the model IP and data privacy; Combine TEEs and cryptographic methods and generate one general protection mechanism for systems using distributed machine learning.",
+      "labels": [
+        "Machine Learning",
+        "Trusted Execution Environment(ARM)",
+        "Applied Cryptology",
+        "C Programming"
+      ],
+      "id": 1
+    },
+    {
+      "institut": "Nomadic Labs",
+      "role": "Research Intern: Super-optimization of Michelson Smart Constract in Tezos blockchain",
+      "logo": "../images/institut.jpg",
+      "brief": "Use meta-heuristics to guide the search on bytecode/program and rewrite Michelson programs optimized in terms of gas consumed; Check the semantic equivalence of the obtained programs by Z3 solver using Translation Validation method",
+      "labels": ["OCaml", "Z3 solver", "Super-optimization"],
+      "id": 2
+    },
+    {
+      "institut": "ISAE-SUPAERO : French Grandes Écoles in engineering",
+      "role": "Diplôme d'Ingénieur",
+      "logo": "../images/institut.jpg",
+      "brief": "Core courses:",
+      "labels": [
+        "Distributed Systems",
+        "CyberSecurity(20/20)",
+        "High Performance Computing",
+        "Real-Time System",
+        "Networks and Computer Architecture",
+        "Advanced Statistics",
+        "Object-Oriented Programming"
+      ],
+      "id": 3
+    },
+    {
+      "institut": "Institut Polytechnique de Paris",
+      "role": "Master of Cyber Physical Systems",
+      "logo": "../images/institut.jpg",
+      "brief": "Core courses:",
+      "labels": [
+        "Cryptography and Advanced Cryptography",
+        "Formal Methods;",
+        "Blockchain Algorithm (18.5/20)",
+        "Wireless Systems (18/20)",
+        "Computational Logic",
+        "Differential Algebraic Equations",
+        "Inductive Validation of Programs and Hybrid Systems",
+        "SMT Solver"
+      ],
+      "id": 4
+    },
+    {
+      "institut": "Co-accredited by ENAC, INP-T (ENSEEIHT and ENSIACET) and ISAE-SUPAERO",
+      "role": "M2 of Operations Research",
+      "logo": "../images/institut.jpg",
+      "brief": "Core courses:",
+      "labels": ["Machine Learning", "Modern Optimization Theories"],
+      "id": 5
+    },
+    {
+      "institut": "EPFL",
+      "role": "Master Exchange Program",
+      "logo": "../images/institut.jpg",
+      "brief": "Core courses:",
+      "labels": [
+        "Software Security(5/6)",
+        "Database System(5.5/6)",
+        "Data Visualization(5.75/6)",
+        "Advanced Algorithm",
+        "Distributed Information Systems"
+      ],
+      "id": 6
+    }
+  ]
+}
