@@ -4,12 +4,15 @@ import WorkLists from "../../components/WorkLists";
 import workData from "../works.json";
 import experienceData from "../experience.json";
 import Experience from "../../components/Experience";
+import Jumbotron from "../SubHeader/Jumbotron";
 
 const HomePage = () => {
   return (
     <div className={styles.wrap}>
       {/* Personal Profile */}
-
+      <section className="">
+        <Jumbotron/>
+      </section>
       <section className={styles.brief}>
         <img src={require("../../assets/images/brief.jpg")} />
         <h2>Tianchi YU</h2>

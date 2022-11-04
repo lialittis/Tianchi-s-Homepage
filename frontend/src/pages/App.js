@@ -51,7 +51,7 @@ function App() {
         <p>
           <b>© 2022 Tianchi YU</b>
         </p>
-        <p>Handmade with</p>
+        <p>Powered by React.</p>
       </footer>
     </div>
   );
