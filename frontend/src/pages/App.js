@@ -4,18 +4,21 @@ import { Link, Route, Routes, useLocation } from "react-router-dom";
 import HomePage from "./HomePage/HomePage";
 import WorkPage from "./WorkPage/WorkPage";
 import WorkPageDetail from "./WorkPageDetail/WorkPageDetail";
+import MyNavbar from "../components/Navbar/MyNavbar";
 
 function App() {
   const location = useLocation();
   // console.log(location);
 
   return (
+    <>
     <div className={styles.App}>
       {/* Navigation Header */}
+      
       <header className={styles.header}>
         <div className={styles.box}>
           <Link to="/">
-            <div className={styles.boxleft}>A Good Lake</div>
+            <div className={styles.boxleft}>Tianchi YU(于天池)</div>
           </Link>
 
           <div className={styles.boxright}>
@@ -54,6 +57,7 @@ function App() {
         <p>Powered by React.</p>
       </footer>
     </div>
+    </>
   );
 }
 
